@@ -5,63 +5,89 @@
   <style>
     body {
       background-color: hotpink;
+      font-family: Georgia, serif;
+      margin: 20px;
     }
-    img {
-      float: left;
-      width: 250px;
-      height: 200px;
-      margin-left: 15px;
-    }
+
     h1 {
       color: white;
-      font-family: Georgia, serif;
       font-size: 300%;
       text-align: center;
+    }
+
+    .pet-section {
+      background-color: red;
+      color: white;
+      border: 6px solid white;
+      padding: 15px;
+      margin-bottom: 30px;
+    }
+
+    .pet-details {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .pet-details img {
+      width: 300px;
+      height: auto;
+      border: 6px solid white;
+    }
+
+    .pet-details ul, .pet-details ol {
+      font-size: 16px;
+      color: white;
+    }
+
+    .pet-details li {
+      margin-bottom: 10px;
+    }
+
+    .label {
+      font-weight: bold;
+      color: yellow;
     }
   </style>
 </head>
 <body>
 
-<h1><b>MY PETS &#128572;</b></h1>
+  <h1>MY PETS &#128572;</h1>
 
-<h2 style="background-color:red; border:6px solid; color: white;font-family:broadway; font-size:300%; text-align: left;"><b>MY FIRST CAT</b></h2>
+  <!-- PET 1 -->
+  <div class="pet-section">
+    <h2>MY FIRST CAT</h2>
+    <div class="pet-details">
+      <img src="omey1.jpg" alt="Omey the cat">
+      <ul>
+        <li><span class="label">NAME:</span> Omey</li>
+        <li><span class="label">AGE:</span> 4 years old</li>
+        <li><span class="label">FAVOURITE NICKNAME:</span> Emu</li>
+        <li><span class="label">FAVOURITE SPOT:</span> On my bed, especially by my side</li>
+        <li><span class="label">FAVOURITE FOOD:</span> Power cat wet food and Whiskas kibbles</li>
+        <li><span class="label">PERSONALITY:</span> Furious, independent, and intelligent</li>
+        <li><span class="label">FUN FACTS:</span> Hates the vacuum cleaner</li>
+      </ul>
+    </div>
+  </div>
 
-<img src="omey1.jpg" alt="Pet Image"style="border:6px solid; color: red;width:300px;">
-<div style="display: flex; align-items: flex-start;">
-<ul>
-  <b><li>NAME:</b>Omey</li>
-  <b><li>AGE:</b>4 years old</li>
-  <b><li>FAVOURITE NICKNAME:</b>Emu</li>
-  <b><li>FAVOURITE SPOT:</b> On my bed, especially by my side</li>
-  <b><li>FAVOURITE FOOD:</b> Power cat wet food and Whiskas kibbles</li>
-  <b><li>PERSONALITY:</b> furious, independent and intelligent
-  <b><li>FUN FACTS:</b> Hates the vacuum cleaner
-</ul>  
-</div>
-</br></br>
-<h2 style="background-color:red; border:6px solid; color: white;font-family:broadway; font-size:300%; text-align: left;"><b>MY SECOND CAT</b></h2>
-
-<img src="cemboi1.jpg" alt="Pet Image"style="border:6px solid; color: red;width:300px;">
-<div style="display: flex; align-items: flex-start;">
-<ol>
-  <b><li>NAME:</b>Cemboi</li>
-  <b><li>AGE:</b>2years old</li>
-  <b><li>FAVOURITE NICKNAME:</b>Boi</li>
-  <b><li>FAVOURITE SPOT:</b>in the shoe box</li>
-  <b><li>FAVOURITE FOOD:</b>Power cat wet food and Whiskas kibbles</li>
-  <b><li>PERSONALITY:</b>friendly,happy-go-lucky, and energetic</li>
-  <b><li>FUN FACTS:</b>Best cuddle buddy ever</li>
-</ol>
-</div>
-
-
-
+  <!-- PET 2 -->
+  <div class="pet-section">
+    <h2>MY SECOND CAT</h2>
+    <div class="pet-details">
+      <img src="cemboi1.jpg" alt="Cemboi the cat">
+      <ol>
+        <li><span class="label">NAME:</span> Cemboi</li>
+        <li><span class="label">AGE:</span> 2 years old</li>
+        <li><span class="label">FAVOURITE NICKNAME:</span> Boi</li>
+        <li><span class="label">FAVOURITE SPOT:</span> In the shoe box</li>
+        <li><span class="label">FAVOURITE FOOD:</span> Power cat wet food and Whiskas kibbles</li>
+        <li><span class="label">PERSONALITY:</span> Friendly, happy-go-lucky, and energetic</li>
+        <li><span class="label">FUN FACTS:</span> Best cuddle buddy ever</li>
+      </ol>
+    </div>
+  </div>
 
 </body>
 </html>
-</div>
-
-
-
-
-

@@ -1,49 +1,54 @@
-<!DOC TYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>hobby</title>
+  <title>Hobby</title>
+  <style>
+    body {
+      background-color: plum;
+      font-family: Georgia, serif;
+      text-align: center;
+    }
+
+    h1 {
+      color: magenta;
+      font-size: 300%;
+    }
+
+    .hobby-title {
+      background-color: purple;
+      color: white;
+      padding: 10px;
+      margin-top: 40px;
+      font-size: 150%;
+    }
+
+    video, iframe {
+      margin-top: 15px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+
 <body>
-<body bgcolor="plum">
 
-<h1 style="color:magenta; font-family:georgia; font-size:300%;"><center><b> HOBBY &#129321;</h1></center></b>
+  <h1><b>HOBBY &#129321;</b></h1>
 
+  <!-- Hobby 1: Cooking -->
+  <div class="hobby-title">1. COOKING</div>
+  <video width="300" controls>
+    <source src="cooking.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-<P>
+  <!-- Hobby 2: Baking -->
+  <div class="hobby-title">2. BAKING</div>
+  <video width="300" controls>
+    <source src="baking.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-</html><h1 style="background-color:purple;"><center >1.COOKING</h1></center></u>
-<p>
-<center>
-<video width="300"  controls>
-  <source src="cooking.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-
-<p>
-
-<center>
-<P>
-</html><h1 style="background-color:purple;"><center >2.BAKING</h1></center></u>
-
-<p>
-
-<video width="300" controls>
-  <source src="baking.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<P>
-
-
-
-<p>
-
-<center>
-<P>
-</html><h1 style="background-color:purple;"><center >3.LISTEN TO PODCAST</h1></center></u>
-
-<p>
-
-<center>
+  <!-- Hobby 3: Podcast -->
+  <div class="hobby-title">3. LISTEN TO PODCAST</div>
   <iframe width="560" height="315" 
     src="https://www.youtube.com/embed/sNFBOblMY18?start=70" 
     title="YouTube video player" 
@@ -51,8 +56,9 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     allowfullscreen>
   </iframe>
-</center>
-<P>
+
+</body>
+</html>
 
 
 
